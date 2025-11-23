@@ -20,8 +20,8 @@ const CARD_MARGIN = 10;
 const CARD_WIDTH = (width - 60) / 2;
 
 // Spotify API credentials and functions
-const SPOTIFY_CLIENT_ID = "e3df452510864d4a91c06978d9c293ec";
-const SPOTIFY_CLIENT_SECRET = "2c422c5e193b413dbfef4c54b86ac101";
+const SPOTIFY_CLIENT_ID = "ClinetID";
+const SPOTIFY_CLIENT_SECRET = "ClientSecret;
 let spotifyAccessToken = null;
 
 async function getSpotifyAccessToken() {
@@ -113,7 +113,7 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [playlists, setPlaylists] = useState([]);
 
-  const WEATHER_API_KEY = '5899dba5aca60a7561ed6c3f68e0d755';
+  const WEATHER_API_KEY = 'API_KEY';
 
   useEffect(() => {
     if (!showWelcome) {
