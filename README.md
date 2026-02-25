@@ -20,7 +20,7 @@ A React Native mobile app that recommends Spotify playlists based on your curren
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/TuneCast.git
+git clone https://github.com/Mymuna18/TuneCast.git
 cd TuneCast
 npm install
 expo start
