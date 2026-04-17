@@ -20,8 +20,8 @@ const CARD_MARGIN = 10;
 const CARD_WIDTH = (width - 60) / 2;
 
 // Spotify API credentials and functions
-const SPOTIFY_CLIENT_ID = "ClinetID";
-const SPOTIFY_CLIENT_SECRET = "ClientSecret;
+const SPOTIFY_CLIENT_ID = "40d469cae711446686016e6205e70363";
+const SPOTIFY_CLIENT_SECRET = "e42d5942f68a4cdea045e9127ac3971f";
 let spotifyAccessToken = null;
 
 async function getSpotifyAccessToken() {
